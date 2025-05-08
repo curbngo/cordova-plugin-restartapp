@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huangang/cordova-plugin-restartapp.git"
+    "url": "git+https://github.com/curbngo/cordova-plugin-restartapp.git"
   },
   "keywords": [
     "cordova",
@@ -22,9 +22,9 @@
   "author": "huangang <huangang.zhang@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/huangang/cordova-plugin-restartapp/issues"
+    "url": "https://github.com/curbngo/cordova-plugin-restartapp/issues"
   },
-  "homepage": "https://github.com/huangang/cordova-plugin-restartapp#readme",
+  "homepage": "https://github.com/curbngo/cordova-plugin-restartapp#readme",
   "main": "www/cordova-plugin-restartapp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -6,7 +6,7 @@ This plugin supports PhoneGap/Cordova apps running on Android.
 
 ## Installation
 
-    cordova plugin add https://github.com/huangang/cordova-plugin-restartapp.git     
+    cordova plugin add https://github.com/curbngo/cordova-plugin-restartapp.git     
     cordova plugin add cordova-plugin-restartapp
 
 ## Usage
