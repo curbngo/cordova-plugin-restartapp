@@ -25,6 +25,20 @@ public class RestartApp extends CordovaPlugin {
     }
 
     @Override
+    public void onReset() {
+        Log.d(TAG, "onReset()");
+        this.currentContext = null;
+        super.onReset();
+    }
+
+    @Override
+    public void onDestroy() {
+        Log.d(TAG, "onDestroy()");
+        this.currentContext = null;
+        super.onDestroy();
+    }
+
+    @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         this.currentContext = callbackContext;
 
